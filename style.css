@@ -1,0 +1,37 @@
+body{
+    background-color: rgba(171, 22, 240, 0.76);
+    text-align: center; 
+    font-size: 2.5rem;
+    color: rgb(255, 255, 255);
+
+}
+.container{
+    width: 1000px;
+    height: 700px;    
+
+}
+.row div{
+    border: 5px solid white;
+}
+
+.row.blue div{
+    background-color: blue;
+    height: 125px;
+    line-height: 100px;
+
+}
+.row.orange div{
+    background-color: orange;
+    height: 200px;
+    line-height: 175px;
+}
+.row.green div{
+    background-color: green;
+    height: 200px;
+    line-height: 175px;  
+}
+.row.red div{
+    background-color: red;
+    height: 125px;
+    line-height: 100px;
+}
