@@ -5,33 +5,73 @@ body{
     color: rgb(255, 255, 255);
 
 }
-.container{
-    max-width: 800px;
-    height: 600px;    
-
-}
 .row div{
-    border: 5px solid white;
+    border: 5px solid black;
+    height: 4rem;
 }
 
 .row.blue div{
     background-color: blue;
-    height: 125px;
-    line-height: 100px;
+    line-height: 50px;
 
 }
 .row.orange div{
-    background-color: orange;
-    height: 200px;
-    line-height: 175px;
+    background-color: rgb(255, 238, 0);
+    height: 10rem;
+    line-height: 150px;
 }
 .row.green div{
-    background-color: green;
-    height: 200px;
-    line-height: 175px;  
-}
+    background-color: rgb(0, 255, 0);
+    line-height: 50px;  
+}   
 .row.red div{
-    background-color: red;
-    height: 125px;
+    background-color: rgb(255, 0, 0);
+    height: 6rem;
     line-height: 100px;
+}
+@media (max-width: 479px)
+{
+    .row.blue div {
+        height: 4rem;
+    }
+    .row.orange div {
+        height: 8rem;
+    }
+    .row.green div {
+        height: 4rem;
+    }
+    .row.red div {
+        height: 6rem;
+    }    
+}
+@media (min-width: 480px)
+{
+    .row.blue div {
+        height: 4rem;
+    }
+    .row.orange div {
+        height: 8rem;
+    }
+    .row.green div {
+        height: 4rem;
+    }
+    .row.red div {
+        height: 6rem;
+    }    
+}
+
+@media (min-width: 768px)
+{
+    .row.blue div {
+        height: 6rem;
+    }
+    .row.orange div {
+        height: 15rem;
+    }
+    .row.green div {
+        height: 12rem;
+    }
+    .row.red div {
+        height: 6rem;
+    }
 }
